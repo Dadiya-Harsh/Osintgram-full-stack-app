@@ -1,0 +1,85 @@
+Osintgram Web
+Copyright (C) 2026 Harsh Dadiya
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see <https://www.gnu.org/licenses/>.
+
+================================================================================
+THIRD-PARTY COMPONENTS
+================================================================================
+
+This product includes software developed by the following projects. Their
+original license terms are reproduced below and continue to apply to their
+respective contributions.
+
+--------------------------------------------------------------------------------
+1. Osintgram
+   https://github.com/Datalux/Osintgram
+   Copyright (C) Giuseppe Criscione and contributors
+   Licensed under the GNU General Public License v3.0
+--------------------------------------------------------------------------------
+
+The Instagram collection logic in this project is derived from Osintgram. Because
+Osintgram is licensed under GPLv3, this combined work is also distributed under
+GPLv3. The full license text is in the LICENSE file at the root of this
+repository.
+
+--------------------------------------------------------------------------------
+2. Full Stack FastAPI Template
+   https://github.com/fastapi/full-stack-fastapi-template
+   Copyright (c) 2019 Sebastian Ramirez
+   Licensed under the MIT License
+--------------------------------------------------------------------------------
+
+The application scaffolding of this project - the FastAPI backend structure,
+authentication, database layer, React frontend, and deployment configuration -
+is derived from the Full Stack FastAPI Template. Its original MIT license is
+reproduced in full below.
+
+The MIT License permits relicensing of derivative works under the GPL, so this
+material is redistributed here under GPLv3 as part of the combined work. This
+notice preserves the attribution the MIT License requires.
+
+    MIT License
+
+    Copyright (c) 2019 Sebastian Ramirez
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+--------------------------------------------------------------------------------
+3. HikerAPI
+   https://hikerapi.com
+--------------------------------------------------------------------------------
+
+Instagram data is retrieved through HikerAPI, a third-party commercial service.
+It is accessed over the network via the `hikerapi` Python client and is not
+bundled with or redistributed by this project. Use of that service is governed
+by its own terms.
+
+Other runtime dependencies are declared in backend/pyproject.toml and
+frontend/package.json and retain their own licenses.
